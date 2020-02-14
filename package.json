@@ -1,27 +1,15 @@
 {
-  "name": "webpack-starter",
+  "name": "frontendhtml-bootstrap",
   "version": "1.0.0",
-  "description": "A light foundation for your next frontend project based on webpack.",
+  "description": "Basic project bootstrap with eslint stylelint and formating",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xDevs-pl/FrontendHTML-bootstrap.git"
+  },
+  "author": "Sebastian Pobocha",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.prod.js  --colors",
     "start": "webpack-dev-server --open --config webpack/webpack.config.dev.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wbkd/webpack-starter.git"
-  },
-  "keywords": [
-    "webpack",
-    "startkit",
-    "frontend",
-    "es6",
-    "javascript",
-    "webdev"
-  ],
-  "author": "webkid.io",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wbkd/webpack-starter/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -33,8 +21,15 @@
     "copy-webpack-plugin": "^5.1.1",
     "cross-env": "^6.0.3",
     "css-loader": "^3.4.2",
-    "eslint": "^6.8.0",
-    "eslint-loader": "^3.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.15.3",
+    "stylelint": "^11.1.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.12.1",
     "file-loader": "^4.3.0",
     "html-webpack-plugin": "^4.0.0-beta.11",
     "mini-css-extract-plugin": "^0.8.2",
